@@ -1,0 +1,119 @@
+.label {
+   display: block;
+
+   .label_text {
+      font-weight: 500;
+
+      span {
+         color: red;
+      }
+   }
+
+   .description_text {
+      font-weight: 400;
+      color: #636363;
+   }
+
+   input {
+      font-weight: 400;
+      outline: none;
+      border: 2px solid #636363;
+   }
+
+   input.none {
+      border-radius: none;
+   }
+
+   input.small {
+      border-radius: 10px;
+   }
+
+   input.medium {
+      border-radius: 20px;
+   }
+
+   input.large {
+      border-radius: 30px;
+   }
+
+   input:focus {
+      border: 2px solid blue;
+   }
+
+   .error_text {
+      font-weight: 400;
+      color: red;
+   }
+}
+
+.label.small {
+   margin-bottom: 15px;
+
+   .label_text {
+      font-size: 14px;
+   }
+
+   .description_text {
+      font-size: 10px;
+      margin-bottom: 2px;
+   }
+
+   input {
+      width: 200px;
+      height: 20px;
+      font-size: 12px;
+      padding-left: 5px;
+   }
+
+   .error_text {
+      font-size: 10px;
+   }
+}
+
+.label.medium {
+   margin-bottom: 20px;
+
+   .label_text {
+      font-size: 18px;
+   }
+
+   .description_text {
+      font-size: 14px;
+      margin-bottom: 5px;
+   }
+
+   input {
+      width: 300px;
+      height: 30px;
+      font-size: 16px;
+      padding-left: 10px;
+   }
+
+   .error_text {
+      font-size: 14px;
+   }
+}
+
+.label.large {
+   margin-bottom: 25px;
+
+   .label_text {
+      font-size: 22px;
+   }
+
+   .description_text {
+      font-size: 18px;
+      margin-bottom: 8px;
+   }
+
+   input {
+      width: 400px;
+      height: 40px;
+      font-size: 20px;
+      padding-left: 15px;
+   }
+
+   .error_text {
+      font-size: 18px;
+   }
+}
